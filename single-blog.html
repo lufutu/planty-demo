@@ -1,329 +1,622 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Planty Theme</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- REMIX ICONS-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
-        <!--Simplebar-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css" />
-        <!--nouislider-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nouislider@15.5.0/dist/nouislider.min.css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="/">
-                    <img src="assets/img/navbar-logo.svg" alt="..." />
-                    <span>Planty</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="ri-menu-line fs-xl"></i></button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/shop.html" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Shop</a>
-                            <div class="dropdown-menu p-0">
-                                <div class="d-flex flex-wrap flex-sm-nowrap px-2">
-                                    <div class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3">
-                                        <div class="widget widget-links mb-4">
-                                            <h6 class="fs-base mb-3">Shop layouts</h6>
-                                            <ul class="widget-list">
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/shop.html">Shop with Left Sidebar</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="widget widget-links mb-4">
-                                            <h6 class="fs-base mb-3">Checkout Pages</h6>
-                                            <ul class="widget-list">
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/checkout-details.html">Checkout details</a></li>
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/checkout-review.html">Checkout Review</a></li>
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/checkout-payment.html">Checkout Payment</a></li>
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/checkout-shipping.html">Checkout Shipping</a></li>
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/checkout-complete.html">Checkout Complete</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3">
-                                        <div class="widget widget-links mb-4">
-                                            <h6 class="fs-base mb-3">Order</h6>
-                                            <ul class="widget-list">
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/cart.html">Cart</a></li>
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/order-tracking.html">Order tracking</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="widget widget-links mb-4">
-                                            <h6 class="fs-base mb-3">
-                                                User
-                                                <span class="badge bg-danger ms-1">NEW</span>
-                                            </h6>
-                                            <ul class="widget-list">
-                                                <li class="widget-list-item"><a class="widget-list-link" href="/profile.html">Profile</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Planty Theme</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- REMIX ICONS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--Simplebar-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
+    />
+    <!--nouislider-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/nouislider@15.5.0/dist/nouislider.min.css"
+    />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="./">
+          <img src="assets/img/navbar-logo.svg" alt="..." />
+          <span>Planty</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="ri-menu-line fs-xl"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto py-4 py-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./shop.html"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                aria-expanded="false"
+                >Shop</a
+              >
+              <div class="dropdown-menu p-0">
+                <div class="d-flex flex-wrap flex-sm-nowrap px-2">
+                  <div
+                    class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3"
+                  >
+                    <div class="widget widget-links mb-4">
+                      <h6 class="fs-base mb-3">Shop layouts</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item">
+                          <a class="widget-list-link" href="./shop.html"
+                            >Shop with Left Sidebar</a
+                          >
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="/blog.html" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog</a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown">
-                                    <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog List Layouts</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/blog-with-sidebar.html">List with Sidebar</a></li>
-                                        <li><a class="dropdown-item" href="/blog.html">List no Sidebar</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown">
-                                    <a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Single Post Layouts</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/single-blog-with-sidebar.html">Article with Sidebar</a></li>
-                                        <li><a class="dropdown-item" href="/single-blog.html">Article no Sidebar</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                      </ul>
+                    </div>
+                    <div class="widget widget-links mb-4">
+                      <h6 class="fs-base mb-3">Checkout Pages</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item">
+                          <a
+                            class="widget-list-link"
+                            href="./checkout-details.html"
+                            >Checkout details</a
+                          >
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="/faqs.html">FAQs</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <div class="page-title bg-soft-primary pt-4">
-            <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
-                <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
-                    <!-- Breadcrumbs-->
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="breadcrumb-trail breadcrumbs">
-                                <ul class="trail-items breadcrumb">
-                                    <li class="trail-item trail-begin"><a href="index.html">Home</a></li>
-                                    <li class="trail-item trail-end active">Single Blog</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <li class="widget-list-item">
+                          <a
+                            class="widget-list-link"
+                            href="./checkout-review.html"
+                            >Checkout Review</a
+                          >
+                        </li>
+                        <li class="widget-list-item">
+                          <a
+                            class="widget-list-link"
+                            href="./checkout-payment.html"
+                            >Checkout Payment</a
+                          >
+                        </li>
+                        <li class="widget-list-item">
+                          <a
+                            class="widget-list-link"
+                            href="./checkout-shipping.html"
+                            >Checkout Shipping</a
+                          >
+                        </li>
+                        <li class="widget-list-item">
+                          <a
+                            class="widget-list-link"
+                            href="./checkout-complete.html"
+                            >Checkout Complete</a
+                          >
+                        </li>
+                      </ul>
                     </div>
+                  </div>
+                  <div
+                    class="mega-dropdown-column pt-1 pt-lg-4 pb-4 px-2 px-lg-3"
+                  >
+                    <div class="widget widget-links mb-4">
+                      <h6 class="fs-base mb-3">Order</h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item">
+                          <a class="widget-list-link" href="./cart.html"
+                            >Cart</a
+                          >
+                        </li>
+                        <li class="widget-list-item">
+                          <a
+                            class="widget-list-link"
+                            href="./order-tracking.html"
+                            >Order tracking</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="widget widget-links mb-4">
+                      <h6 class="fs-base mb-3">
+                        User
+                        <span class="badge bg-danger ms-1">NEW</span>
+                      </h6>
+                      <ul class="widget-list">
+                        <li class="widget-list-item">
+                          <a class="widget-list-link" href="./profile.html"
+                            >Profile</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
-                    <h1 class="h3 text-primary mb-0">
-                        <i class="ri-book-mark-line"></i>
-                        Single Blog
-                    </h1>
-                </div>
-            </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="./blog.html"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                aria-expanded="false"
+                >Blog</a
+              >
+              <ul class="dropdown-menu">
+                <li class="dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    >Blog List Layouts</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="./blog-with-sidebar.html"
+                        >List with Sidebar</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./blog.html"
+                        >List no Sidebar</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    data-bs-toggle="dropdown"
+                    >Single Post Layouts</a
+                  >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./single-blog-with-sidebar.html"
+                        >Article with Sidebar</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./single-blog.html"
+                        >Article no Sidebar</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./faqs.html">FAQs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-        <div class="container pt-2 mt-2">
-            <div class="banner py-sm-2">
-                <div class="d-sm-flex justify-content-between align-items-center bg-mint overflow-hidden mb-4 rounded-3">
-                    <div class="py-4 my-2 my-md-0 py-md-5 px-4 ms-md-3 text-center text-sm-start">
-                        <h4 class="fs-lg fw-light mb-2">Fall in love</h4>
-                        <h3 class="mb-4">Make Your Day Comfortable</h3>
-                        <a class="btn btn-primary btn-shadow btn-sm" href="/shop.html">Shop Now</a>
-                    </div>
-                    <img class="d-block ms-auto" src="assets/img/products/product2.png" alt="Plant" height="200" />
-                </div>
+      </div>
+    </nav>
+    <div class="page-title bg-soft-primary pt-4">
+      <div class="container d-lg-flex justify-content-between py-2 py-lg-3">
+        <div class="order-lg-2 mb-3 mb-lg-0 pt-lg-2">
+          <!-- Breadcrumbs-->
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="breadcrumb-trail breadcrumbs">
+                <ul class="trail-items breadcrumb">
+                  <li class="trail-item trail-begin">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="trail-item trail-end active">Single Blog</li>
+                </ul>
+              </div>
             </div>
+          </div>
         </div>
-        <div class="blog-page container">
-            <div class="row pt-2 mt-2">
-                <div class="col-lg-12">
-                    <!--  Post content-->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minima veniam, quis nostrum exercitationem occaecat cupidatat non proident.</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <blockquote class="testimonial my-4 pt-4 pb-2">
-                        <div class="card border-0 shadow-sm">
-                            <span class="testimonial-mark"></span>
-                            <div class="card-body fs-md">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</div>
-                        </div>
-                        <footer class="d-flex align-items-center justify-content-center pt-4">
-                            <img class="rounded" src="https://i.pravatar.cc/50?u=1" width="50" alt="Mary Grant" />
-                            <div class="ps-3">
-                                <h6 class="fs-sm mb-n1">Mary Alice Grant</h6>
-                                <span class="fs-ms text-muted">Shopoholic</span>
-                            </div>
-                        </footer>
-                    </blockquote>
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est.</p>
-                    <!--  Post tags + sharing-->
-                    <div class="d-flex flex-wrap justify-content-between pt-2 pb-4 mb-1">
-                        <div class="mt-3 me-3">
-                            <a class="btn-tag me-2 mb-2" href="#">#merchandise</a>
-                            <a class="btn-tag mb-2" href="#">#printed tshirts</a>
-                        </div>
-                        <div class="mt-3">
-                            <span class="d-inline-block align-middle text-muted fs-sm me-3 mt-1 mb-2">Share post:</span>
-                            <a class="btn-social bs-facebook me-2 mb-2" href="#"><i class="ri-facebook-line"></i></a>
-                            <a class="btn-social bs-twitter me-2 mb-2" href="#"><i class="ri-twitter-line"></i></a>
-                            <a class="btn-social bs-pinterest me-2 mb-2" href="#"><i class="ri-pinterest-line"></i></a>
-                        </div>
-                    </div>
-                    <!--  Post navigation-->
-                    <nav class="entry-navigation" aria-label="Post navigation">
-                        <a class="entry-navigation-link" href="#" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-html="true" data-bs-content='&lt;div class="d-flex align-items-center"&gt;&lt;img src="https://source.unsplash.com/60x60/?plant" width="60" class="rounded" alt="Post thumb"&gt;&lt;div class="ps-3"&gt;&lt;h6 class="fs-sm fw-semibold mb-0"&gt;Houseplants and their many health benefits.&lt;/h6&gt;&lt;span class="d-block fs-xs text-muted"&gt;by Susan Mayer&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;'>
-                            <i class="ri-arrow-left-line me-2"></i>
-                            <span class="d-none d-sm-inline">Prev post</span>
-                        </a>
-                        <a class="entry-navigation-link" href="blog.html">
-                            <i class="ri-file-list-2-line me-2"></i>
-                            <span class="d-none d-sm-inline">All posts</span>
-                        </a>
-                        <a class="entry-navigation-link" href="#" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover" data-bs-html="true" data-bs-content='&lt;div class="d-flex align-items-center"&gt;&lt;img src="https://source.unsplash.com/60x60/?houseplant" width="60" class="rounded" alt="Post thumb"&gt;&lt;div class="ps-3"&gt;&lt;h6  class="fs-sm fw-semibold mb-0"&gt;10 Houseplant Instagrams to Follow Right Now&lt;/h6&gt;&lt;span class="d-block fs-xs text-muted"&gt;by Logan Coleman&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;'>
-                            <span class="d-none d-sm-inline">Next post</span>
-                            <i class="ri-arrow-right-line ms-2"></i>
-                        </a>
-                    </nav>
-                    <!--  Comments-->
-                    <div class="pt-2 mt-5" id="comments">
-                        <h2 class="h4">
-                            Comments
-                            <span class="badge bg-secondary fs-sm text-body align-middle ms-2">3</span>
-                        </h2>
-                        <!--  comment-->
-                        <div class="d-flex align-items-start py-4 border-bottom">
-                            <img class="rounded-circle" src="https://i.pravatar.cc/50?u=2" width="50" alt="Laura Willson" />
-                            <div class="ps-3">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <h6 class="fs-md mb-0">Laura Willson</h6>
-                                    <a class="nav-link-style fs-sm fw-medium" href="#">
-                                        <i class="ri-reply-line me-2"></i>
-                                        Reply
-                                    </a>
-                                </div>
-                                <p class="fs-md mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat cupidatat non proident, sunt in culpa qui.</p>
-                                <span class="fs-ms text-muted">
-                                    <i class="ri-time-line align-middle me-2"></i>
-                                    Sep 7, 2019
-                                </span>
-                                <!--  comment reply-->
-                                <div class="d-flex align-items-start border-top pt-4 mt-4">
-                                    <img class="rounded-circle" src="https://i.pravatar.cc/50?u=3" width="50" alt="Michael Davis" />
-                                    <div class="ps-3">
-                                        <div class="d-flex justify-content-between align-items-center mb-2"><h6 class="fs-md mb-0">Michael Davis</h6></div>
-                                        <p class="fs-md mb-1">Egestas sed sed risus pretium quam vulputate dignissim. A diam sollicitudin tempor id eu nisl. Ut porttitor leo a diam. Bibendum at varius vel pharetra vel turpis nunc.</p>
-                                        <span class="fs-ms text-muted">
-                                            <i class="ri-time-line align-middle me-2"></i>
-                                            Sep 13, 2019
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--  comment-->
-                        <div class="d-flex align-items-start py-4">
-                            <img class="rounded-circle" src="https://i.pravatar.cc/50?u=4" width="50" alt="Benjamin Miller" />
-                            <div class="ps-3">
-                                <div class="d-flex justify-content-between align-items-center mb-2">
-                                    <h6 class="fs-md mb-0">Benjamin Miller</h6>
-                                    <a class="nav-link-style fs-sm fw-medium" href="#">
-                                        <i class="ri-reply-line me-2"></i>
-                                        Reply
-                                    </a>
-                                </div>
-                                <p class="fs-md mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat cupidatat non proident, sunt in culpa qui.</p>
-                                <span class="fs-ms text-muted">
-                                    <i class="ri-time-line align-middle me-2"></i>
-                                    Aug 15, 2019
-                                </span>
-                            </div>
-                        </div>
-                        <!--  Post comment form-->
-                        <div class="card border-0 shadow mt-2 mb-4">
-                            <div class="card-body">
-                                <div class="d-flex align-items-start">
-                                    <img class="rounded-circle" src="https://i.pravatar.cc/50?u=5" width="50" alt="Mary Alice" />
-                                    <form class="w-100 needs-validation ms-3" novalidate>
-                                        <div class="mb-3">
-                                            <textarea class="form-control" rows="4" placeholder="Write comment..." required></textarea>
-                                            <div class="invalid-feedback">Please write your comment.</div>
-                                        </div>
-                                        <button class="btn btn-primary btn-sm" type="submit">Post comment</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="order-lg-1 pe-lg-4 text-center text-lg-start">
+          <h1 class="h3 text-primary mb-0">
+            <i class="ri-book-mark-line"></i>
+            Single Blog
+          </h1>
         </div>
-        <!-- Footer-->
-        <footer class="footer py-5 bg-mint">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 text-lg-start">
-                        <div class="footer-logo footer-header mb-2">
-                            <img src="assets/img/navbar-logo.svg" alt="..." />
-                            <span>Planty</span>
-                        </div>
-                        <div class="footer-text mb-2">&copy; Planty . All rigths reserved</div>
-                        <div class="icon-list-social">
-                            <a class="icon-list-social-link" href="#!"><i class="ri-instagram-line"></i></a>
-                            <a class="icon-list-social-link" href="#!"><i class="ri-facebook-box-line"></i></a>
-                            <a class="icon-list-social-link" href="#!"><i class="ri-twitter-line"></i></a>
-                            <a class="icon-list-social-link" href="#!"><i class="ri-youtube-line"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 my-3 my-lg-0">
-                        <h3 class="footer-header mb-2">Contact Us</h3>
-                        <ul class="list-unstyled mb-2">
-                            <li class="mb-2 d-flex flex-nowrap">
-                                <i class="ri-map-2-line me-2"></i>
-                                <address class="m-0">Address: London Oxford Street, 012 United Kingdom.</address>
-                            </li>
-                            <li class="mb-2 d-flex flex-nowrap">
-                                <i class="ri-phone-line me-2"></i>
-                                <span class="leftAlign">
-                                    Phone :
-                                    <a href="javascript:void(0);">(+008) 868 8888</a>
-                                </span>
-                            </li>
-                            <li class="email d-flex flex-nowrap">
-                                <i class="ri-mail-line me-2"></i>
-                                <span class="leftAlign">
-                                    Email:
-                                    <a href="javascript:void(0);">planty@gmail.com</a>
-                                </span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <h3 class="footer-header mb-2">Our Service</h3>
-                        <ul class="footer-widget-list-item">
-                            <li><a href="#">Payment Methods</a></li>
-                            <li><a href="#">Money Guarantee!</a></li>
-                            <li><a href="#">Returns</a></li>
-                            <li><a href="#">Shipping</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3">
-                        <h3 class="footer-header mb-2">We accept all credit cards</h3>
-                        <div class="footer-cards">
-                            <img src="assets/img/card1.png" alt="..." />
-                            <img src="assets/img/card2.png" alt="..." />
-                            <img src="assets/img/card3.png" alt="..." />
-                            <img src="assets/img/card4.png" alt="..." />
-                        </div>
-                    </div>
-                </div>
+      </div>
+    </div>
+    <div class="container pt-2 mt-2">
+      <div class="banner py-sm-2">
+        <div
+          class="
+            d-sm-flex
+            justify-content-between
+            align-items-center
+            bg-mint
+            overflow-hidden
+            mb-4
+            rounded-3
+          "
+        >
+          <div
+            class="
+              py-4
+              my-2 my-md-0
+              py-md-5
+              px-4
+              ms-md-3
+              text-center text-sm-start
+            "
+          >
+            <h4 class="fs-lg fw-light mb-2">Fall in love</h4>
+            <h3 class="mb-4">Make Your Day Comfortable</h3>
+            <a class="btn btn-primary btn-shadow btn-sm" href="./shop.html"
+              >Shop Now</a
+            >
+          </div>
+          <img
+            class="d-block ms-auto"
+            src="assets/img/products/product2.png"
+            alt="Plant"
+            height="200"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="blog-page container">
+      <div class="row pt-2 mt-2">
+        <div class="col-lg-12">
+          <!--  Post content-->
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum. Ut enim ad
+            minima veniam, quis nostrum exercitationem occaecat cupidatat non
+            proident.
+          </p>
+          <p>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+          <blockquote class="testimonial my-4 pt-4 pb-2">
+            <div class="card border-0 shadow-sm">
+              <span class="testimonial-mark"></span>
+              <div class="card-body fs-md">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum.
+              </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Parallax-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
-        <!-- Simplebar-->
-        <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
-        <!-- Nouislider-->
-        <script src="https://cdn.jsdelivr.net/npm/nouislider@15.5.0/dist/nouislider.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+            <footer
+              class="d-flex align-items-center justify-content-center pt-4"
+            >
+              <img
+                class="rounded"
+                src="https://i.pravatar.cc/50?u=1"
+                width="50"
+                alt="Mary Grant"
+              />
+              <div class="ps-3">
+                <h6 class="fs-sm mb-n1">Mary Alice Grant</h6>
+                <span class="fs-ms text-muted">Shopoholic</span>
+              </div>
+            </footer>
+          </blockquote>
+          <p>
+            At vero eos et accusamus et iusto odio dignissimos ducimus qui
+            blanditiis praesentium voluptatum deleniti atque corrupti quos
+            dolores et quas molestias excepturi sint occaecati cupiditate non
+            provident, similique sunt in culpa qui officia deserunt mollitia
+            animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis
+            est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+            eligendi optio cumque nihil impedit quo minus id quod maxime placeat
+            facere possimus, omnis voluptas assumenda est.
+          </p>
+          <!--  Post tags + sharing-->
+          <div class="d-flex flex-wrap justify-content-between pt-2 pb-4 mb-1">
+            <div class="mt-3 me-3">
+              <a class="btn-tag me-2 mb-2" href="#">#merchandise</a>
+              <a class="btn-tag mb-2" href="#">#printed tshirts</a>
+            </div>
+            <div class="mt-3">
+              <span
+                class="
+                  d-inline-block
+                  align-middle
+                  text-muted
+                  fs-sm
+                  me-3
+                  mt-1
+                  mb-2
+                "
+                >Share post:</span
+              >
+              <a class="btn-social bs-facebook me-2 mb-2" href="#"
+                ><i class="ri-facebook-line"></i
+              ></a>
+              <a class="btn-social bs-twitter me-2 mb-2" href="#"
+                ><i class="ri-twitter-line"></i
+              ></a>
+              <a class="btn-social bs-pinterest me-2 mb-2" href="#"
+                ><i class="ri-pinterest-line"></i
+              ></a>
+            </div>
+          </div>
+          <!--  Post navigation-->
+          <nav class="entry-navigation" aria-label="Post navigation">
+            <a
+              class="entry-navigation-link"
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-trigger="hover"
+              data-bs-html="true"
+              data-bs-content='&lt;div class="d-flex align-items-center"&gt;&lt;img src="https://source.unsplash.com/60x60/?plant" width="60" class="rounded" alt="Post thumb"&gt;&lt;div class="ps-3"&gt;&lt;h6 class="fs-sm fw-semibold mb-0"&gt;Houseplants and their many health benefits.&lt;/h6&gt;&lt;span class="d-block fs-xs text-muted"&gt;by Susan Mayer&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;'
+            >
+              <i class="ri-arrow-left-line me-2"></i>
+              <span class="d-none d-sm-inline">Prev post</span>
+            </a>
+            <a class="entry-navigation-link" href="blog.html">
+              <i class="ri-file-list-2-line me-2"></i>
+              <span class="d-none d-sm-inline">All posts</span>
+            </a>
+            <a
+              class="entry-navigation-link"
+              href="#"
+              data-bs-toggle="popover"
+              data-bs-placement="top"
+              data-bs-trigger="hover"
+              data-bs-html="true"
+              data-bs-content='&lt;div class="d-flex align-items-center"&gt;&lt;img src="https://source.unsplash.com/60x60/?houseplant" width="60" class="rounded" alt="Post thumb"&gt;&lt;div class="ps-3"&gt;&lt;h6  class="fs-sm fw-semibold mb-0"&gt;10 Houseplant Instagrams to Follow Right Now&lt;/h6&gt;&lt;span class="d-block fs-xs text-muted"&gt;by Logan Coleman&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;'
+            >
+              <span class="d-none d-sm-inline">Next post</span>
+              <i class="ri-arrow-right-line ms-2"></i>
+            </a>
+          </nav>
+          <!--  Comments-->
+          <div class="pt-2 mt-5" id="comments">
+            <h2 class="h4">
+              Comments
+              <span class="badge bg-secondary fs-sm text-body align-middle ms-2"
+                >3</span
+              >
+            </h2>
+            <!--  comment-->
+            <div class="d-flex align-items-start py-4 border-bottom">
+              <img
+                class="rounded-circle"
+                src="https://i.pravatar.cc/50?u=2"
+                width="50"
+                alt="Laura Willson"
+              />
+              <div class="ps-3">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <h6 class="fs-md mb-0">Laura Willson</h6>
+                  <a class="nav-link-style fs-sm fw-medium" href="#">
+                    <i class="ri-reply-line me-2"></i>
+                    Reply
+                  </a>
+                </div>
+                <p class="fs-md mb-1">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat cupidatat non
+                  proident, sunt in culpa qui.
+                </p>
+                <span class="fs-ms text-muted">
+                  <i class="ri-time-line align-middle me-2"></i>
+                  Sep 7, 2019
+                </span>
+                <!--  comment reply-->
+                <div class="d-flex align-items-start border-top pt-4 mt-4">
+                  <img
+                    class="rounded-circle"
+                    src="https://i.pravatar.cc/50?u=3"
+                    width="50"
+                    alt="Michael Davis"
+                  />
+                  <div class="ps-3">
+                    <div
+                      class="
+                        d-flex
+                        justify-content-between
+                        align-items-center
+                        mb-2
+                      "
+                    >
+                      <h6 class="fs-md mb-0">Michael Davis</h6>
+                    </div>
+                    <p class="fs-md mb-1">
+                      Egestas sed sed risus pretium quam vulputate dignissim. A
+                      diam sollicitudin tempor id eu nisl. Ut porttitor leo a
+                      diam. Bibendum at varius vel pharetra vel turpis nunc.
+                    </p>
+                    <span class="fs-ms text-muted">
+                      <i class="ri-time-line align-middle me-2"></i>
+                      Sep 13, 2019
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--  comment-->
+            <div class="d-flex align-items-start py-4">
+              <img
+                class="rounded-circle"
+                src="https://i.pravatar.cc/50?u=4"
+                width="50"
+                alt="Benjamin Miller"
+              />
+              <div class="ps-3">
+                <div
+                  class="d-flex justify-content-between align-items-center mb-2"
+                >
+                  <h6 class="fs-md mb-0">Benjamin Miller</h6>
+                  <a class="nav-link-style fs-sm fw-medium" href="#">
+                    <i class="ri-reply-line me-2"></i>
+                    Reply
+                  </a>
+                </div>
+                <p class="fs-md mb-1">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat cupidatat non
+                  proident, sunt in culpa qui.
+                </p>
+                <span class="fs-ms text-muted">
+                  <i class="ri-time-line align-middle me-2"></i>
+                  Aug 15, 2019
+                </span>
+              </div>
+            </div>
+            <!--  Post comment form-->
+            <div class="card border-0 shadow mt-2 mb-4">
+              <div class="card-body">
+                <div class="d-flex align-items-start">
+                  <img
+                    class="rounded-circle"
+                    src="https://i.pravatar.cc/50?u=5"
+                    width="50"
+                    alt="Mary Alice"
+                  />
+                  <form class="w-100 needs-validation ms-3" novalidate>
+                    <div class="mb-3">
+                      <textarea
+                        class="form-control"
+                        rows="4"
+                        placeholder="Write comment..."
+                        required
+                      ></textarea>
+                      <div class="invalid-feedback">
+                        Please write your comment.
+                      </div>
+                    </div>
+                    <button class="btn btn-primary btn-sm" type="submit">
+                      Post comment
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer class="footer py-5 bg-mint">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 text-lg-start">
+            <div class="footer-logo footer-header mb-2">
+              <img src="assets/img/navbar-logo.svg" alt="..." />
+              <span>Planty</span>
+            </div>
+            <div class="footer-text mb-2">
+              &copy; Planty . All rigths reserved
+            </div>
+            <div class="icon-list-social">
+              <a class="icon-list-social-link" href="#!"
+                ><i class="ri-instagram-line"></i
+              ></a>
+              <a class="icon-list-social-link" href="#!"
+                ><i class="ri-facebook-box-line"></i
+              ></a>
+              <a class="icon-list-social-link" href="#!"
+                ><i class="ri-twitter-line"></i
+              ></a>
+              <a class="icon-list-social-link" href="#!"
+                ><i class="ri-youtube-line"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3 my-lg-0">
+            <h3 class="footer-header mb-2">Contact Us</h3>
+            <ul class="list-unstyled mb-2">
+              <li class="mb-2 d-flex flex-nowrap">
+                <i class="ri-map-2-line me-2"></i>
+                <address class="m-0">
+                  Address: London Oxford Street, 012 United Kingdom.
+                </address>
+              </li>
+              <li class="mb-2 d-flex flex-nowrap">
+                <i class="ri-phone-line me-2"></i>
+                <span class="leftAlign">
+                  Phone :
+                  <a href="javascript:void(0);">(+008) 868 8888</a>
+                </span>
+              </li>
+              <li class="email d-flex flex-nowrap">
+                <i class="ri-mail-line me-2"></i>
+                <span class="leftAlign">
+                  Email:
+                  <a href="javascript:void(0);">planty@gmail.com</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="footer-header mb-2">Our Service</h3>
+            <ul class="footer-widget-list-item">
+              <li><a href="#">Payment Methods</a></li>
+              <li><a href="#">Money Guarantee!</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="footer-header mb-2">We accept all credit cards</h3>
+            <div class="footer-cards">
+              <img src="assets/img/card1.png" alt="..." />
+              <img src="assets/img/card2.png" alt="..." />
+              <img src="assets/img/card3.png" alt="..." />
+              <img src="assets/img/card4.png" alt="..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Parallax-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <!-- Simplebar-->
+    <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js"></script>
+    <!-- Nouislider-->
+    <script src="https://cdn.jsdelivr.net/npm/nouislider@15.5.0/dist/nouislider.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
